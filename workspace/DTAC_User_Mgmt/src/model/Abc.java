@@ -12,7 +12,6 @@ import org.hibernate.annotations.NamedQuery;
  * 
  */
 @Entity
-
 @NamedQuery(name="Abc.findAll", query="SELECT a FROM Abc a")
 
 public class Abc implements Serializable {
