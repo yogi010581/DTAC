@@ -15,7 +15,7 @@ import org.hibernate.annotations.NamedQuery;
 @NamedQuery(name="Abc.findAll", query="SELECT a FROM Abc a")
 
 public class Abc implements Serializable {
-	
+	///*
 	private static final long serialVersionUID = 1L;
 
 	private String text;
